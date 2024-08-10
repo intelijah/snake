@@ -59,7 +59,7 @@ Engine::Engine()
 
 	snake.setMoving(false);
 
-	timeBeforeNextFrame = 150.f;
+	timeBeforeNextFrame = 100.f;
 	timeCounter = 0.f;
 
 	dt = clock.restart();
